@@ -1,11 +1,13 @@
 export default function Header() {
   return (
-    <header className="w-full bg-[#3E2B2F] py-1 px-4  md:px-[60px] lg:px-[150px] xl:px[100px] flex items-center justify-between">
-      <img
-        src="/logo.png"
-        alt="Logo Talisma Eventos"
-        className="h-[80px] w-auto md:h-[120px]"
-      />
+    <header className="fixed z-50 w-full bg-[#3E2B2F] py-1 px-4  md:px-[60px] lg:px-[150px] xl:px[100px] flex items-center justify-between">
+      <a href="home">
+        <img
+          src="/logo.png"
+          alt="Logo Talisma Eventos"
+          className="h-[80px] w-auto md:h-[120px]"
+        />
+      </a>
 
       <nav className=" hidden md:flex items-center gap-[60px] text-white text-base font-poppins font-medium ">
         <a href="#" className="text-[#FF4F00] ">

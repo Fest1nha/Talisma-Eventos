@@ -31,7 +31,7 @@ export default function ServiceCards() {
       style={{
         backgroundImage: "url('background.png')",
       }}
-    >
+    > 
       <div className="max-w-6xl mx-auto">
         <Swiper
           modules={[Pagination]}
@@ -45,9 +45,9 @@ export default function ServiceCards() {
         >
           {services.map((s, i) => (
             <SwiperSlide key={i}>
-              <div className="relative h-96 rounded-lg shadow-xl overflow-hidden">
+              <div className="relative h-120 rounded-lg shadow-xl overflow-hidden">
                 <div
-                  className="absolute inset-0 bg-cover bg-center opacity-60"
+                  className="absolute inset-0 bg-cover bg-center opacity-80"
                   style={{ backgroundImage: `url(${s.img})` }}
                 ></div>
 

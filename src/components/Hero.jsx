@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative w-full h-[80vh] md:h-screen overflow-hidden">
+    <section className="relative w-full h-[60vh] md:h-150 overflow-hidden">
       {/* Vídeo de fundo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover opacity-90 brightness-70"
