@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="fixed z-50 w-full bg-[#3E2B2F] py-1 px-4  md:px-[60px] lg:px-[150px] xl:px[100px] flex items-center justify-between">
-      <a href="home">
+      <a href="">
         <img
           src="/logo.png"
           alt="Logo Talisma Eventos"
