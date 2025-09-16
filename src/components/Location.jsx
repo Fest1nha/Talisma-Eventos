@@ -17,7 +17,7 @@ export default function Location() {
           />
           <img
             src="local2.jpg"
-            alt="local"
+            alt="local2"
             className="w-40 md:w-70 rounded-lg rotate-6 shadow-lg"
           />
         </div>
