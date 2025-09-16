@@ -11,7 +11,7 @@ export default function Location() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-30">
         <div className="flex flex-row justify-center gap-20 md:w-1/2">
           <img
-            src="local1.jpg"
+            src="Local1.jpg"
             alt="local1"
             className="w-40 md:w-70 rounded-lg -rotate-6 shadow-lg"
           />
