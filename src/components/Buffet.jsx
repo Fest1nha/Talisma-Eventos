@@ -13,12 +13,12 @@ export default function Buffet() {
 
         <div className="flex flex-col md:flex-row gap-6 items-center justify-center mb-8">
           <img
-            src="public/buffet1.jpg"
+            src="buffet1.jpg"
             alt="Buffet"
             className="w-full md:w-[500px] rounded shadow-lg"
           />
           <img
-            src="public/buffet2.jpg"
+            src="buffet2.jpg"
             alt="Buffet2"
             className="w-full md:w-[500px] rounded shadow-lg"
           />

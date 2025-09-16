@@ -11,12 +11,12 @@ export default function Location() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-30">
         <div className="flex flex-row justify-center gap-20 md:w-1/2">
           <img
-            src="public/local1.jpg"
+            src="local1.jpg"
             alt="local"
             className="w-40 md:w-70 rounded-lg -rotate-6 shadow-lg"
           />
           <img
-            src="public/local2.jpg"
+            src="local2.jpg"
             alt="local"
             className="w-40 md:w-70 rounded-lg rotate-6 shadow-lg"
           />
